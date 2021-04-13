@@ -195,4 +195,74 @@ blockquote, q {
     #contact a{
         color:#fbfffb
     }
+    #contact h2{
+        color:#fbfffb;
+    }
+
+    /*responsive styles*/
+    /*break points*/
+    /*
+
+    max-width scales down, this is for desktop first design
+
+    min-width scales up, this is for mobile first design
+
+    */
+    /*tablet*/
+    @media(max-width:800px){
+        #about div{
+            width:40%;
+        }
+        .shop-text div{
+            width:70%;
+        }
+    }
+    /*phone*/
+    @media(max-width:500px){
+        /*nav*/
+        nav{
+            flex-direction:column;
+            align-items:center;
+        }
+        .links{
+            width:100%;
+        }
+        .logo{
+            width:25%;
+        }
+        #home button{
+            display:none;
+        }
+        #about{
+            background-image:none;
+            background-color:#e2e3e5;;
+        }
+        #about div{
+            margin-right:0;
+            width:80%;
+        }
+        .container{
+            flex-direction:column;
+            align-items:center
+        }
+        .bg-img .shop-text{
+            width:90%;
+        }
+        .mobile-specific{
+            flex-direction:column-reverse;
+        }
+        .shop-text div{
+            width:100%;
+        }
+        .left, .right{
+                width:100%;
+        }
+        #contact p.copyright{
+            text-align:center;
+            margin:0;
+        }
+        .left div{
+            width:50%;
+        }
+    }
 
