@@ -76,4 +76,123 @@ blockquote, q {
     section{
         padding:4% 0;
     }
-    
+    /*header section styles*/
+    nav{
+        display:flex;
+        justify-content:space-between;
+        background-color:rgba(255, 255, 255, 0.8);
+        position:fixed;
+        width:100%;
+        z-index: index 999;
+    }
+    .logo{
+        width:10%;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+    }
+    .links{
+        width:50%;
+        display:flex;
+        justify-content:space-evenly;
+        align-items:center;
+    }
+    .logo img{
+            width:60%;
+    }
+    /*top section styles*/
+    #home{
+        height:80vh;
+        background-image:url(../images/header.jpg);
+        background-repeat:no-repeat;
+        background-size:cover;
+        background-position:bottom;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    /*about section styles*/
+    #about{
+        display:flex;
+        justify-content:flex-end;
+        background-image:url(../images/about-img.jpg);
+        background-repeat:no-repeat;
+        background-size:cover;
+        background-position:center;
+        padding:12% 0;
+    }
+    #about div{
+        width:20%;
+        margin-right:10%;
+        padding:4%;
+    }
+
+    /*shop selection styles*/
+    .container{
+        display:flex;
+    }
+    .shop-text{
+        width:50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .shop-text div{
+        width:60%;
+        text-align:center;
+    }
+    .bg-img{
+        width:50%;
+        background-repeat:no-repeat;
+        background-size:cover;
+        background-position:center;
+        height:50vh;
+    }
+    .succulants{
+        background-image: url(../images/succulants.jpg);
+    }
+    .cactus{
+        background-image: url(../images/cacti.jpg);
+    }
+    .tropicals{
+        background-image: url(../images/tropicals.jpg);
+    }
+
+    /*footer*/
+    #contact{
+        display: flex;
+        flex-wrap:wrap;
+        color:#FBFFFB;
+        background-color:#266305;
+    }
+    #contact h2{
+        width:100%;
+    }
+    #contact p.copyright{
+        width:100%;
+        text-align:right;
+        margin-right: 10%;
+    }
+    .left, .right{
+        width:50%;
+        display:flex;
+        justify-content:center;
+        align-items: center;
+
+    }
+    .right img{
+        width:50%;
+    }
+    .left div{
+        width:40%;
+        line-height:2;
+    }
+    #contact h3{
+        color: #fbfffb;
+    }
+    #contact a{
+        color:#fbfffb
+    }
+
